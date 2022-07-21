@@ -1,0 +1,26 @@
+.contenido_Error{
+    display: flex;
+    justify-content: center;
+    padding: 1rem   ;
+}
+.contenido_Error img{
+    width: 35%;
+    height: 35%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.contenido_Error div {
+    margin: 5%;
+    text-align: center;
+    color: yellow;
+}
+@media (max-width: 768px) {
+    .contenido_Error{
+        display: block;
+    }
+
+    .contenido_Error img{
+    width: 95%;
+    height: 95%;
+}
+}

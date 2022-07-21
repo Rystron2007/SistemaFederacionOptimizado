@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../../../Assets/img/fondologin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    letter-spacing: 1px;
+    width: 100%;
+    background: darkblue;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#container {
+    background: rgba(67, 68, 38, 0.35);
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container form {
+    background: rgba(255, 255, 255, 0.73);
+    width: 300px;
+    padding: 10px;
+}
+
+#container form img {
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+#container form input {
+    width: 100%;
+    padding: 2%;
+    font-size: 14pt;
+    display: block;
+    margin: 25px auto;
+    border-radius: 7px;
+    border: 1px solid #9FA2A5;
+    text-align: center;
+}
+
+#container form input[type="submit"] {
+    background: #48BA78;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 460px) {
+    #container form {
+        width: 90%;
+        background: rgba(255, 255, 255, 0.73);
+    }
+}

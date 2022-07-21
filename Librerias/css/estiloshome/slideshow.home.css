@@ -1,0 +1,12 @@
+  
+.formato{
+  width: 100%;
+  height: 550px ;
+}
+@media (min-width: 768px) {
+  .formato {
+      width:auto;
+      height: 20% ;
+    }   
+    
+}

@@ -1,0 +1,4 @@
+    
+    <script>
+    $('.carousel').carousel();
+</script>  

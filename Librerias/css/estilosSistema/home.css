@@ -1,0 +1,104 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --amarillo: #ffc107;
+    --celesteSecundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: rgb(169, 178, 190);
+}
+
+
+.dashboard {
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.dashboard a {
+    color: white;
+    width: calc(100% / 5);
+    padding: 20px;
+
+    font-size: 25pt;
+    text-align: center;
+}
+
+
+.dashboard p {
+    color: darkkhaki;
+    font-size: 12pt;
+}
+
+.dashboard a span {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.titlePanelControl {
+    width: 100%;
+    background: #FFF;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    font-size: 18pt !important;
+    color: #0A4661;
+}
+
+
+.h1dash {
+    font-size: 35px;
+    display: block;
+    color: lightsteelblue;
+    align-items: center;
+    align-content: center;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+}
+
+.h2dash {
+    font-size: 35px;
+    display: block;
+    color: yellowgreen;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links_directos {
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .titlePanelControl {
+
+        padding: 5px 10px;
+
+    }
+
+    .dashboard p {
+        color: darkkhaki;
+        font-size: 10px;
+    }
+
+    .dashboard a span {
+        font-weight: bold;
+        font-size: 12pt;
+    }
+
+    .footer {
+
+        bottom: auto;
+
+    }
+}

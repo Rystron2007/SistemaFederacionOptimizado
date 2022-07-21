@@ -1,0 +1,68 @@
+.formatolink{
+  text-decoration: none;
+}
+
+/*Formato del Contenedor principal*/
+.contenedor{
+  width: 95%;
+  align-content: center;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+.contenedor_body{
+  min-height: 91vh;
+}
+
+/*Formato del Header Usando Bootstrap*/
+.encabezado_logo{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1%;
+  padding-left: 3%;
+}
+.encabezado_logo h1{
+  margin-left: 3%;
+  color: white;
+}
+.logo{
+  width: 12rem;
+  height: 6rem;
+  /*display: inline-block;*/
+}
+.encabezado_opciones{
+  padding: 2%;
+  align-items: center;
+  text-align: center;
+}
+.encabezado_opciones p{
+  align-items: center;
+  margin: 0%;
+}
+.encabezado_opciones a{
+  align-items: center;
+  margin: 0%;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .encabezado_logo h1{
+    margin-left: 1%;
+    color: white;
+    font-size: 26px;
+  }
+  .logo{
+    width: 8rem;
+    height: 4rem;
+    /*display: inline-block;*/
+  }
+}
+
+/*Formato del Footer*/
+.formato_footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+}

@@ -1,0 +1,78 @@
+:root{
+    --primary: #c7831d;
+}
+.app-sidebar__user-avatar{
+    width: 4rem;
+    padding: 4px;
+}
+.color_enlaces{
+    color: #c7831d;
+}
+.app-sidebar__toggle{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.btn-primary-login {
+    color: #FFF;
+    background-color: #c7831d;
+    border-color: #c7831d;
+  }
+  .btn-primary-login:hover {
+    color: #FFF;
+    background-color: #706500;
+    border-color: #706500;
+  }
+.btn-primary-formato {
+    color: #FFF;
+    background-color: #272b30;
+    border-color: #272b30;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #f7b842;
+    background-color: #FFF;
+    border: 1px solid #dee2e6;
+}
+.headerRegister, .header-primary{
+    background: #f7b842;
+    color: white;
+}
+.headerUpdate{
+    background: #17a2b8;
+    color: white;
+}
+.notBlock{
+    display: none;
+}
+.material-half-bg {
+    height: 100%;
+    background-image: url(../img/fondologin.jpg) !important; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .material-half-bg .cover {
+    background-image: url(../img/fondologin.jpg) !important; 
+    height: 100%;
+  }
