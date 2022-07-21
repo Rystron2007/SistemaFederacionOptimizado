@@ -1,0 +1,154 @@
+[07-Jul-2021 22:53:15 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 22:55:06 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 22:56:16 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 23:25:17 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 23:30:16 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 23:40:28 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 23:46:30 America/Guayaquil] PHP Fatal error:  Class Roles contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Crud::delRegistro) in /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php on line 3
+[07-Jul-2021 23:46:33 America/Guayaquil] PHP Fatal error:  Class Roles contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Crud::delRegistro) in /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php on line 3
+[07-Jul-2021 23:57:33 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[07-Jul-2021 23:58:37 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(6)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(6)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 00:00:07 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(6)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(6)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 00:41:22 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(3)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(3)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 10:14:51 America/Guayaquil] PHP Warning:  require_once(Views/Template/footer_admin.php): failed to open stream: No such file or directory in /home1/proye244/grupo2.proyectosoftware.com/Helpers/Helpers.php on line 17
+[08-Jul-2021 10:14:51 America/Guayaquil] PHP Fatal error:  require_once(): Failed opening required 'Views/Template/footer_admin.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/proye244/grupo2.proyectosoftware.com/Helpers/Helpers.php on line 17
+[08-Jul-2021 10:22:02 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(3)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(3)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 10:25:17 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(11)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(11)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 10:28:40 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(1)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(1)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 10:28:43 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(2)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(2)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
+[08-Jul-2021 10:35:58 America/Guayaquil] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'proye244_federacion_arbritos.usuario' doesn't exist in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php:41
+Stack trace:
+#0 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php(41): PDOStatement->execute()
+#1 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(94): Mysql->select_all('SELECT * FROM u...')
+#2 /home1/proye244/grupo2.proyectosoftware.com/Models/RolesModel.php(70): RolesModel->validarRolDel(3)
+#3 /home1/proye244/grupo2.proyectosoftware.com/Controllers/Roles.php(128): RolesModel->deleteRol(3)
+#4 /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Load.php(10): Roles->delRegistro('')
+#5 /home1/proye244/grupo2.proyectosoftware.com/index.php(26): require_once('/home1/proye244...')
+#6 {main}
+  thrown in /home1/proye244/grupo2.proyectosoftware.com/Librerias/Core/Mysql.php on line 41
